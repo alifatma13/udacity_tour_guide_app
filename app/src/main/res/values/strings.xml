@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Bengaluru Tour Guide</string>
+
+   <!--Historical Heritage-->
+   <string name="heritage_name_1">Vidhan Soudha</string>
+   <string name="heritage_description_1">It is the largest Secretariat in India and houses the State Legislature</string>
+   <string name="heritage_location_1">Location: Doctor Ambedkar Veedhi, Sampangi Rama Nagar, Bengaluru, Karnataka 560001</string>
+    <string name="heritage_name_2">Bangalore Palace</string>
+    <string name="heritage_description_2">Bangalore Palace, a palace located in Bangalore, Karnataka, India</string>
+    <string name="heritage_location_2">Location: Vasanth Nagar, Bengaluru, Karnataka 560052</string>
+    <string name="heritage_name_3">Tipu\'s Palace</string>
+    <string name="heritage_description_3">Tipu Sultan\'s Summer Palace, in Bangalore, India, is an example of Indo-Islamic architecture and was the summer residence of the Mysorean ruler Tipu Sultan.</string>
+    <string name="heritage_location_3">Location: Albert Victor Road, Chamrajpet, Bengaluru, Karnataka 560018</string>
+    <string name="heritage_name_4">Seshadri Iyer Memorial Hall</string>
+    <string name="heritage_description_4">Historic library housed in a striking red building with a unique round room, on the edge of a park.</string>
+    <string name="heritage_location_4">Location: Cubbon Park, Near Century Club, Bengaluru, Karnataka 560001</string>
+    <string name="heritage_name_5">Attara Kacheri</string>
+    <string name="heritage_description_5">The Karnataka High Court functions out of a red brick building known as Attara Kacheri.</string>
+    <string name="heritage_location_5">Location: Dr Ambedkar Veedhi, Sampangi Rama Nagar, Bengaluru, Karnataka 560001</string>
+
+    <!--Restaurants-->
+    <string name="restaurant_name_1">The Tao Terraces</string>
+    <string name="restaurant_description_1">Funky music venue and restaurant serving up house and techno music and Asian style cuisine.</string>
+    <string name="restaurant_location_1">Location: 5th Floor, 1 MG Mall, Mahatma Gandhi Road, Opposite Taj Vivanta, Halasuru, Bengaluru, Karnataka 560008</string>
+    <string name="restaurant_name_2">Bengaluru Baking Company</string>
+    <string name="restaurant_description_2">Daily baked pastries and made-to-order sandwiches open all day at an upmarket chain hotel.</string>
+    <string name="restaurant_location_2">Location: JW Marriott hotel, Vittal Mallya Rd, KG Halli, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560001</string>
+    <string name="restaurant_name_3">Aqua The Park - Bengaluru</string>
+    <string name="restaurant_description_3">Open air, poolside lounge and bar at an upscale hotel mixing cocktails with European fare.</string>
+    <string name="restaurant_location_3">Location: The Park, 14/7, Yellappa Garden, Yellappa Chetty Layout, Sivanchetti Gardens, M.G.Road, Karnataka 560001</string>
+    <string name="restaurant_name_4">Tandoor Restaurant</string>
+    <string name="restaurant_description_4">Best tandoor items available here. Mostly known for Fine Dining serving Mughlai and North Indian cuisine.</string>
+    <string name="restaurant_location_4">Location: MG Road, Craig Park Layout, Ashok Nagar, Bengaluru, Karnataka 560001</string>
+    <string name="restaurant_name_5">High Ultra Lounge</string>
+    <string name="restaurant_description_5">Slick modern venue with far-reaching views over the city, a full bar and a varied, pan-Asian menu.</string>
+    <string name="restaurant_location_5">Location: No. 26/1, Rooftop, World Trade Center, Bangalore Brigade Gateway Campus, Dr. Rajkumar Road, Malleswaram, Bengaluru, Karnataka 560055</string>
+
+    <!-- Things to Do-->
+    <string name="things_to_do_name_1">Lal Bagh</string>
+    <string name="things_to_do_description_1">Botanical garden with an aquarium &amp; glasshouse designed to mimic London\'s former Crystal Palace.</string>
+    <string name="things_to_do_location_1">Location: Mavalli, Bengaluru, Karnataka 560004</string>
+    <string name="things_to_do_name_2">Wonderla</string>
+    <string name="things_to_do_description_2">Wonderla Holidays is one of the largest amusement park operator in India, 28 kilometres from Bengaluru.</string>
+    <string name="things_to_do_location_2">Location: 28th Km, Mysore Road, Bengaluru, Karnataka 562109</string>
+    <string name="things_to_do_name_3">HAL Aerospace Museum</string>
+    <string name="things_to_do_description_3">HAL Aerospace Museum is India\'s first aerospace museum located at Hindustan Aeronautics Limited premises, in Bangalore.</string>
+    <string name="things_to_do_location_3">Location: HAL Police Station, HAL Old Airport Rd, Marathahalli, Bengaluru, Karnataka 560037</string>
+    <string name="things_to_do_name_4">ISKCON Temple Bangalore</string>
+    <string name="things_to_do_description_4">It is one of the largest ISKCON temples in the world, has deities of Radha and Krishna.</string>
+    <string name="things_to_do_location_4">Location: Hare Krishna Hill, Chord Road, 1st R Block, Rajaji Nagar, Bengaluru, Karnataka 560010</string>
+    <string name="things_to_do_name_5">Karnataka Chitrakala Parishath</string>
+    <string name="things_to_do_description_5">It is a visual art complex located in bengaluru that carry a permanent collection of paintings and sculptures.</string>
+    <string name="things_to_do_location_5">Location: No.1, Art Complex, Kumara Krupa Rd, Bengaluru, Karnataka 560001</string>
+
+    <!--Upcoming events -->
+    <string name="events_name_1">Alex Black\'s Magic Show</string>
+    <string name="events_description_1">Mr. Alex is a Russian magician who is a leading magician with variety of eye popping acts which are unique and incomparable.</string>
+    <string name="events_location_1">Location: Town Hall: Bengaluru, Jayachamaraja Wodeyar Road, Sampangi Rama Nagar, Bengaluru, Karnataka 560002, India</string>
+    <string name="events_name_2">G-Shock Bangalore Open Air</string>
+    <string name="events_description_2">Bangalore Open Air has long been considered to be the biggest Rock &amp; Heavy Metal festival in India</string>
+    <string name="events_location_2">Location: Aadya Farms: Yelahanka,Leisure Park, Ramagondanahalli, Bengaluru, Karnataka 560064, India</string>
+    <string name="events_name_3">Virtual Reality - Games</string>
+    <string name="events_description_3">This is the one stop Virtual Reality Experience Zone. Experiences so good, VR Room trounces the real world in terms of sheer fun and variety. </string>
+    <string name="events_location_3">Location: VR Room: Bengaluru,Ejipura,1st Floor, Eat Street, Bengaluru, Karnataka 560095, India</string>
+    <string name="events_name_4">Movies at The Park</string>
+    <string name="events_description_4">The Garden City is all set to host its first \'Movies at the park\', a 3-day long outdoor cinema picnic experience. </string>
+    <string name="events_location_4">Location: The Farm House: Bengaluru,The Farm House: Bengaluru, Radha Homotel, #136/137, Opposite SAP Labs India, Whitefield </string>
+    <string name="events_name_5"> Inksoul Tattoo Festival</string>
+    <string name="events_description_5">Inksoul Tattoo Festival is Indias most happening and largest tattoo festival.</string>
+    <string name="events_location_5">Location: Manpho Convention Centre: Bengaluru, Next to Manyata Tech Park, Bengaluru, Karnataka 560045, India</string>
+    
+    <!-- Kannada Phrases-->
+    <string name="welcome">Welcome</string>
+    <string name="welcome_kannada">susvāgata</string>
+    <string name="hello">Hello</string>
+    <string name="hello_kannada">namaskāra</string>
+    <string name="how_are_you">How are you?</string>
+    <string name="how_are_you_kannada">hegiddērā?</string>
+    <string name="what_is_your_name">What is your name?</string>
+    <string name="what_is_your_name_kannada">ninna hesarēnu?</string>
+    <string name="my_name_is">My name is..</string>
+    <string name="my_name_is_kannada">nanna hesaru ..</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="good_morning_kannada">shubhodaya</string>
+    <string name="good_bye">Good Bye</string>
+    <string name="good_bye_kannada">hogi banni athavā hogi bartēra?</string>
+    <string name="dont_understand">I don\'t understand</string>
+    <string name="dont_understand_kannada">tiḷī\'lilla</string>
+    <string name="speak_slowly">Please speak more slowly</string>
+    <string name="speak_slowly_kannada">salpa mellage mātāḍi</string>
+    <string name="say_that_again">Please say that again</string>
+    <string name="say_that_again_kannada">innomme hēḷi)</string>
+    <string name="sorry">Sorry</string>
+    <string name="sorry_kannada">kshamisi</string>
+    <string name="thankyou">Thank You</string>
+    <string name="thankyou_kannada">dhanyavāda</string>
+    <string name="please">Please</string>
+    <string name="please_kannada">dayaviṭṭu</string>
+    <string name="where_is_washroom">Where is the washroom?</string>
+    <string name="where_is_washroom_kannada">śaucālaya ellide?</string>
+
+
+</resources>

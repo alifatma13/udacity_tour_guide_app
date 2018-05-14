@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 The Android Open Source Project
+
+
+--><!-- Layout for a single list item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/word_list_item_height"
+    android:orientation="horizontal">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/text_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="16dp">
+
+            <TextView
+                android:id="@+id/kannada_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold"
+                tools:text="lutti" />
+
+            <TextView
+                android:id="@+id/default_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="@dimen/list_item_play"
+            android:layout_height="@dimen/list_item_play"
+            android:layout_alignRight="@id/text_container"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/play1" />
+    </RelativeLayout>
+
+</LinearLayout>

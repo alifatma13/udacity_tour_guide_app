@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Height of each list item -->
+    <dimen name="list_item_height">144dp</dimen>
+    <dimen name="word_list_item_height">88dp</dimen>
+    <dimen name="list_item_image_width">132dp</dimen>
+    <dimen name="list_item_image_height">148dp</dimen>
+    <dimen name="list_item_play">24dp</dimen>
+</resources>
