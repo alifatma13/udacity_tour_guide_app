@@ -38,56 +38,59 @@ public class ListItemAdapter extends ArrayAdapter<ListItem> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         // Check if an existing view is being reused, otherwise inflate the view
-        View listItemView = convertView;
-        if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(
+
+        ViewHolderItems viewHolderItems;
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
+            viewHolderItems = new ViewHolderItems();
+            viewHolderItems.nameTextView =convertView.findViewById(R.id.name_text_view);
+            viewHolderItems.descriptionTextView =convertView.findViewById(R.id.description_text_view);
+            viewHolderItems.locationTextView = convertView.findViewById(R.id.location_text_view);
+            viewHolderItems.imageView = convertView.findViewById(R.id.image);
+            viewHolderItems.textContainer = convertView.findViewById(R.id.text_container);
+            convertView.setTag(viewHolderItems);
+        }
+        else
+        {
+            viewHolderItems = (ViewHolderItems) convertView.getTag();
         }
 
         // Get the {@link ListItem} object located at this position in the list
-        ListItem currentListItem = getItem(position);
+       ListItem currentListItem = getItem(position);
 
-        // Find the TextView in the list_item.xml layout with the ID name_text_view.
-        TextView nameTextView = (TextView) listItemView.findViewById(R.id.name_text_view);
         // Get the Place's name from the currentListItem object and set this text on
         // the nameTextView.
-        nameTextView.setText(currentListItem.getPlaceName());
+        viewHolderItems.nameTextView.setText(currentListItem.getPlaceName());
 
-        // Find the TextView in the list_item.xml layout with the ID description_text_view .
-        TextView descriptionTextView = (TextView) listItemView.findViewById(R.id.description_text_view);
+
         // Get the description of the current place from the currentListItem object and set this text on
         // the description TextView.
-        descriptionTextView.setText(currentListItem.getPlaceDescription());
+        viewHolderItems.descriptionTextView.setText(currentListItem.getPlaceDescription());
 
-        // Find the TextView in the list_item.xml layout with the ID location_text_view .
-        TextView locationTextView = (TextView) listItemView.findViewById(R.id.location_text_view);
         // Get the location of the current place from the currentListItem object and set this text on
         // the location TextView.
-        locationTextView.setText(currentListItem.getPlaceLocation());
+        viewHolderItems.locationTextView.setText(currentListItem.getPlaceLocation());
 
-        // Find the ImageView in the list_item.xml layout with the ID image.
-        ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
         // Check if an image is provided for this word or not
-        if (currentListItem.hasImage()) {
+       if (getItem(position).hasImage()) {
             // If an image is available, display the provided image based on the resource ID
-            imageView.setImageResource(currentListItem.getImageResourceId());
+           viewHolderItems.imageView.setImageResource(currentListItem.getImageResourceId());
             // Make sure the view is visible
-            imageView.setVisibility(View.VISIBLE);
-        } else {
+           viewHolderItems.imageView.setVisibility(View.VISIBLE);
+       } else {
             // Otherwise hide the ImageView (set visibility to GONE)
-            imageView.setVisibility(View.GONE);
+             viewHolderItems.imageView.setVisibility(View.GONE);
         }
 
-        // Set the theme color for the list item
-        View textContainer = listItemView.findViewById(R.id.text_container);
         // Find the color that the resource ID maps to
         int color = ContextCompat.getColor(getContext(), mColorResourceId);
         // Set the background color of the text container View
-        textContainer.setBackgroundColor(color);
+        viewHolderItems.textContainer.setBackgroundColor(color);
 
 
         // Return the whole list item layout (containing 2 TextViews) so that it can be shown in
         // the ListView.
-        return listItemView;
+        return convertView;
     }
 }

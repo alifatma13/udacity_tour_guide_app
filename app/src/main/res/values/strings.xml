@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Bengaluru Tour Guide</string>
 
-   <!--Historical Heritage-->
-   <string name="heritage_name_1">Vidhan Soudha</string>
-   <string name="heritage_description_1">It is the largest Secretariat in India and houses the State Legislature</string>
-   <string name="heritage_location_1">Location: Doctor Ambedkar Veedhi, Sampangi Rama Nagar, Bengaluru, Karnataka 560001</string>
+    <!--Historical Heritage-->
+    <string name="heritage_name_1">Vidhan Soudha</string>
+    <string name="heritage_description_1">It is the largest Secretariat in India and houses the State Legislature</string>
+    <string name="heritage_location_1">Location: Doctor Ambedkar Veedhi, Sampangi Rama Nagar, Bengaluru, Karnataka 560001</string>
     <string name="heritage_name_2">Bangalore Palace</string>
     <string name="heritage_description_2">Bangalore Palace, a palace located in Bangalore, Karnataka, India</string>
     <string name="heritage_location_2">Location: Vasanth Nagar, Bengaluru, Karnataka 560052</string>
@@ -68,7 +68,7 @@
     <string name="events_name_5"> Inksoul Tattoo Festival</string>
     <string name="events_description_5">Inksoul Tattoo Festival is Indias most happening and largest tattoo festival.</string>
     <string name="events_location_5">Location: Manpho Convention Centre: Bengaluru, Next to Manyata Tech Park, Bengaluru, Karnataka 560045, India</string>
-    
+
     <!-- Kannada Phrases-->
     <string name="welcome">Welcome</string>
     <string name="welcome_kannada">susvāgata</string>
@@ -98,6 +98,13 @@
     <string name="please_kannada">dayaviṭṭu</string>
     <string name="where_is_washroom">Where is the washroom?</string>
     <string name="where_is_washroom_kannada">śaucālaya ellide?</string>
+
+    <!--Tab names-->
+    <string name="heritage">Heritage</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="things_to_do">Things to Do</string>
+    <string name="events">Events</string>
+    <string name="kannada_phrases">Kannada Phrases</string>
 
 
 </resources>

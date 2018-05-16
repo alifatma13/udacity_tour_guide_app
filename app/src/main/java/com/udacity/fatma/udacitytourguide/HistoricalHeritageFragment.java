@@ -35,7 +35,6 @@ public class HistoricalHeritageFragment extends Fragment {
      * @param param2 Parameter 2.
      * @return A new instance of fragment HistoricalHeritageFragment.
      */
-    // TODO: Rename and change types and number of parameters
     public static HistoricalHeritageFragment newInstance(String param1, String param2) {
         HistoricalHeritageFragment fragment = new HistoricalHeritageFragment();
         Bundle args = new Bundle();
@@ -85,8 +84,6 @@ public class HistoricalHeritageFragment extends Fragment {
         listView.setAdapter(adapter);
         return rootView;
     }
-
-    // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {
         if (mListener != null) {
             mListener.onFragmentInteraction(uri);
@@ -111,7 +108,6 @@ public class HistoricalHeritageFragment extends Fragment {
      * >Communicating with Other Fragments</a> for more information.
      */
     public interface OnFragmentInteractionListener {
-        // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
 }

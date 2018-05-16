@@ -12,9 +12,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 public class TourGuideFragmentPagerAdapter extends FragmentPagerAdapter {
 
     final private int PAGE_COUNT = 5;
-    private String tabTitles[] = new String[]{"Heritage", "Restaurants", "Things To Do ", "Events", "Kannada Phrases"};
     private Context context;
-
     public TourGuideFragmentPagerAdapter(FragmentManager fm, Context context) {
         super(fm);
         this.context = context;
@@ -44,6 +42,17 @@ public class TourGuideFragmentPagerAdapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         // Generate title based on item position
-        return tabTitles[position];
+        switch (position) {
+            case 0:
+                return context.getString(R.string.heritage);
+            case 1:
+                return context.getString(R.string.restaurants);
+            case 2:
+                return context.getString(R.string.things_to_do);
+            case 3:
+                return context.getString(R.string.events);
+            default:
+                return context.getString(R.string.kannada_phrases);
+        }
     }
 }
